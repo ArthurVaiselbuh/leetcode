@@ -1,7 +1,8 @@
 CC = gcc
+INCLUDES = -Iutils -Iunity
+CFLAGS = -g -Wall $(INCLUDES)
 OUT_DIR = out
 TARGET = $(OUT_DIR)/run_tests
-CFLAGS = -g -Wall
 SRCS = tests/test_utils.c utils/vector.c utils/stack.c
 UNITY_SRC = unity/unity.c
 
