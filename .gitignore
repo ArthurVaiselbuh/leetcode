@@ -34,3 +34,17 @@
 .cache/
 .vscode/
 __pycache__
+
+# Ignore output folder
+out/
+
+# Ignore common IDE folders
+.idea/
+.vscode/
+.pytest_cache
+*.swp
+*.swo
+
+# Ignore build artifacts
+*.log
+*.tmp
