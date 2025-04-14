@@ -1,5 +1,4 @@
-#ifndef STACK_H
-#define STACK_H
+#pragma once
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -17,5 +16,3 @@ typedef struct Stack_st {
 Stack* StackInit();
 void StackPush(Stack *s, void* value);
 void* StackPop(Stack *s);
-
-#endif // STACK_H

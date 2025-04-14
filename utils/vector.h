@@ -1,5 +1,4 @@
-#ifndef VECTOR_H
-#define VECTOR_H
+#pragma once
 
 #include <stdlib.h>
 
@@ -16,5 +15,3 @@ Vector* VectorInitSize(size_t initial_size);
 void VectorTeardown(Vector *vec);
 void VectorPushBack(Vector *v, void* value);
 void* VectorRemoveLast(Vector *v);
-
-#endif // VECTOR_H
